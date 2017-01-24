@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.blue {
+  background: #609EFC;
+  float: left;
+  height: 100%;
+}
+
+.seaFoam {
+  background: #57EBD6;
+  margin: auto;
+  height: 100%;
+}
+
+.puke {
+  background: #B9ED91;
+  float: right;
+  height: calc(100vh - 125px)
+}
+
+.cherry {
+  background: #DF112A;
+  float: right;
+  width: 33.33%;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  padding: 50px;
+}
